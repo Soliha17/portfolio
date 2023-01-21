@@ -16,6 +16,7 @@ export const projectsData = [
     title: "Web design",
     category: "HTML",
     link: "https://maxfun-solya.netlify.app/",
+    github: "https://github.com/Soliha17/maxfun",
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ export const projectsData = [
     title: "App movil",
     category: "Javascript",
     link: "https://expanding-card-solya.netlify.app/",
+    github: "https://github.com/Soliha17/animation-slider",
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ export const projectsData = [
     title: "Brand design",
     category: "React",
     link: "https://frontintproduct.netlify.app/",
+    github: "https://github.com/Munirabonu/Product_frontInt/tree/test",
   },
   {
     id: 4,
@@ -37,6 +40,7 @@ export const projectsData = [
     title: "Brand design",
     category: "React",
     link: "https://tochafrontint.netlify.app/",
+    github: "https://github.com/Munirabonu/Tocha",
   },
   {
     id: 5,
@@ -44,6 +48,7 @@ export const projectsData = [
     title: "Web design",
     category: "HTML",
     link: "https://kit-s.netlify.app/",
+    github: "https://github.com/Soliha17/kit",
   },
   {
     id: 6,
@@ -51,6 +56,7 @@ export const projectsData = [
     title: "Web design",
     category: "HTML",
     link: "https://project-solya.netlify.app/",
+    github: "https://github.com/Soliha17/Exam_Uzdevs_First",
   },
   {
     id: 7,
@@ -58,6 +64,7 @@ export const projectsData = [
     title: "Web design",
     category: "HTML",
     link: "https://last-d.netlify.app/",
+    github: "https://github.com/Soliha17/Art-Eccommerce/tree/main/art",
   },
   {
     id: 8,
@@ -65,6 +72,7 @@ export const projectsData = [
     title: "Brand design",
     category: "React",
     link: "https://erp-solya.netlify.app/",
+    github: "https://github.com/Soliha17/erp/tree/main/erp-1",
   },
   {
     id: 9,
@@ -72,6 +80,7 @@ export const projectsData = [
     title: "Brand design",
     category: "React",
     link: "https://solya-invest.netlify.app/podcasts",
+    github: "https://github.com/Soliha17/invest",
   },
   {
     id: 10,
@@ -79,6 +88,7 @@ export const projectsData = [
     title: "Web design",
     category: "HTML",
     link: "https://ibiznes-solya.netlify.app/",
+    github: "https://github.com/Soliha17/Exam_Uzdevs",
   },
 ];
 
