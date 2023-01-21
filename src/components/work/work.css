@@ -21,17 +21,18 @@
 .work__container {
   grid-template-columns: repeat(2, max-content);
   gap: 3rem;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .work__card {
+  width: 450px;
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
 }
 .work__img {
-  width: 295px;
+  width: 500px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
 }
@@ -41,7 +42,11 @@
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
 }
-
+.card__links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .work__button {
   color: var(--text-color);
   font-size: var(--small-font-size);
@@ -70,6 +75,7 @@
     gap: 1.25rem;
   }
   .work__card {
+    width: 400px;
     padding: 1rem;
   }
   .work__img {
@@ -79,15 +85,24 @@
     margin-bottom: 0.25rem;
   }
 }
+@media screen and (max-width: 870px) {
+  .work__card {
+    width: 350px;
+  }
+}
 @media screen and (max-width: 768px) {
   .work__container{
     grid-template-columns: max-content;
+    justify-content: center;
   }
 }
 
 @media screen and (max-width: 576px) {
   .work__container{
     grid-template-columns: 1fr;
+  }
+  .work__card{
+    justify-self: center;
   }
   .work__img{
     width: 100%;
@@ -100,5 +115,8 @@
   }
   .work__filters{
     column-gap: 0.25rem;
+  }
+  .work__card {
+    width: 300px;
   }
 }

@@ -1,6 +1,6 @@
 .services__container {
-  grid-template-columns: repeat(3, 270px);
-  justify-content: center;
+  grid-template-columns: repeat(3, 290px);
+  justify-content: space-between;
   column-gap: 1.8rem;
 }
 
@@ -114,7 +114,8 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
   .services__container {
-    grid-template-columns: repeat(3, 218px);
+    grid-template-columns: repeat(3, 230px);
+    justify-content: center;
   }
 }
 
