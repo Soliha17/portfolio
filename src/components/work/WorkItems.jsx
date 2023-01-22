@@ -9,7 +9,7 @@ const WorkItems = ({ item }) => {
           <i class="bx bx-world"></i>
           Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
         </a>
-        <a href={item.link} target="_blank" className="work__button">
+        <a href={item.github} target="_blank" className="work__button">
           <i className="uil uil-github-alt"></i>
           Github <i className="bx bx-right-arrow-alt work__button-icon"></i>
         </a>
