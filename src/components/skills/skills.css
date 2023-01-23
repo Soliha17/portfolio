@@ -8,7 +8,7 @@
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 3rem 4rem;
-  border-radius: 1.25rem;
+  border-radius: 0.75rem;
 }
 
 .skills__title {
@@ -61,17 +61,14 @@
     grid-template-columns: 1fr;
   }
   .skills__content {
-    padding: 1.5rem;
-    width: 350px;
+    padding: 2rem 1.5rem;
+    width: 100%;
     justify-self: center;
   }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .skills__content {
-    width: 300px;
-  }
   .skills__box {
     column-gap: 1.25rem;
   }
