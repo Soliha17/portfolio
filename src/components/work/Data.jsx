@@ -52,14 +52,6 @@ export const projectsData = [
   },
   {
     id: 6,
-    image: Html3,
-    title: "Web design",
-    category: "HTML",
-    link: "https://project-solya.netlify.app/",
-    github: "https://github.com/Soliha17/Exam_Uzdevs_First",
-  },
-  {
-    id: 7,
     image: Html4,
     title: "Web design",
     category: "HTML",
@@ -67,7 +59,7 @@ export const projectsData = [
     github: "https://github.com/Soliha17/Art-Eccommerce/tree/main/art",
   },
   {
-    id: 8,
+    id: 7,
     image: React3,
     title: "Brand design",
     category: "React",
@@ -75,7 +67,7 @@ export const projectsData = [
     github: "https://github.com/Soliha17/erp/tree/main/erp-1",
   },
   {
-    id: 9,
+    id: 8,
     image: React4,
     title: "Brand design",
     category: "React",
@@ -83,7 +75,7 @@ export const projectsData = [
     github: "https://github.com/Soliha17/invest",
   },
   {
-    id: 10,
+    id: 9,
     image: Html5,
     title: "Web design",
     category: "HTML",
