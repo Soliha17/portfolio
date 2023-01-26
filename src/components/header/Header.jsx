@@ -64,19 +64,6 @@ function Header() {
               </li>
               <li className="nav__item">
                 <a
-                  href="#services"
-                  onClick={() => setActiveNav("#sevices")}
-                  className={
-                    activeNav === "#services"
-                      ? "nav__link active-link"
-                      : "nav__link"
-                  }
-                >
-                  <i className="uil uil-briefcase-alt nav__icon"></i>Services
-                </a>
-              </li>
-              <li className="nav__item">
-                <a
                   href="#portfolio"
                   onClick={() => setActiveNav("#portfolio")}
                   className={

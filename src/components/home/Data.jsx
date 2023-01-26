@@ -60,7 +60,7 @@ function Data() {
         I'm a experienced developer based in Uzbekistan, and I'm very passionate
         and dedicated to my work.
       </p>
-      <a href="https://t.me/solyadev" className="button button--flex">
+      <a href="#contact" className="button button--flex">
         Say Hello
         <svg
           class="button__icon"
