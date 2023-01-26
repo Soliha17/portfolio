@@ -7,6 +7,7 @@ function Social() {
         href="https://t.me/solyadev"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="bx bxl-telegram"></i>
       </a>
@@ -14,6 +15,7 @@ function Social() {
         href="https://github.com/Soliha17"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="uil uil-github-alt"></i>
       </a>
@@ -21,6 +23,7 @@ function Social() {
         href="https://www.linkedin.com/in/solya1702/"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="bx bxl-linkedin"></i>
       </a>

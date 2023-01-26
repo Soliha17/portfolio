@@ -50,7 +50,7 @@ const Contact = () => {
 
               <h3 className="contact__title">Phone Number</h3>
               <span className="contact__card-data">+998 415-95-81</span>
-              <a href="" className="contact__button">
+              <a href="https://t.me/solyadev" className="contact__button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>

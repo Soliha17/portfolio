@@ -1,6 +1,5 @@
 import Html1 from "../../assets/html-1.png";
 import Html2 from "../../assets/html-2.png";
-import Html3 from "../../assets/html-3.png";
 import Html4 from "../../assets/html-4.png";
 import Html5 from "../../assets/html-5.png";
 import React1 from "../../assets/react-1.png";

@@ -30,6 +30,7 @@ const Footer = () => {
             href="https://t.me/solyadev"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="bx bxl-telegram"></i>
           </a>
@@ -37,6 +38,7 @@ const Footer = () => {
             href="https://github.com/Soliha17"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="uil uil-github-alt"></i>
           </a>
@@ -44,6 +46,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/solya1702/"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="bx bxl-linkedin"></i>
           </a>
