@@ -1,8 +1,16 @@
 .contact__container {
-  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: repeat(2, max-content);
   justify-content: center;
   column-gap: 6rem;
   padding-bottom: 3rem;
+}
+
+.contact__container .contact__content:nth-child(2) {
+  text-align: center;
+  align-self: center;
+  margin: 0 auto;
+  order: -1;
+  margin-bottom: 2rem;
 }
 
 .contact__title {
@@ -18,7 +26,12 @@
   grid-template-columns: 300px;
 }
 
+.contact__container .contact__content:nth-child(1) .contact__info {
+  display: flex;
+  gap: 1rem;
+}
 .contact__card {
+  width: 300px;
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
@@ -65,7 +78,7 @@
 }
 
 .contact__form {
-  width: 360px;
+  width: 600px;
 }
 
 .contact__form-div {
@@ -99,51 +112,61 @@
   z-index: 10;
 }
 
-.contact__form-area{
+.contact__form-area {
   height: 11rem;
 }
 
-.contact__form-area textarea{
+.contact__form-area textarea {
   resize: none;
 }
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-  .contact__container{
+  .contact__container {
     column-gap: 3rem;
+  }
+
+  .contact__card {
+    width: 250px;
   }
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
-  .contact__container{
+@media screen and (max-width: 825px) {
+  .contact__container {
     grid-template-columns: 1fr;
     row-gap: 3rem;
   }
 
-  .contact__info{
+  .contact__content:nth-child(1) .contact__info {
+    flex-wrap: wrap;
+  }
+
+  .contact__info {
     justify-content: center;
   }
 
-  .contact__form{
+  .contact__form {
+    width: 450px;
     margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .contact__info{
+  .contact__info {
     grid-template-columns: 1fr;
   }
 
-  .contact__form{
-    width: 100%;
+  .contact__form {
+    width: 350px;
   }
 
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-
+  .contact__form {
+    width: 300px;
+  }
 }
