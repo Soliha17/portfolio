@@ -6,6 +6,7 @@ import React1 from "../../assets/react-1.png";
 import React2 from "../../assets/react-2.png";
 import React3 from "../../assets/react-3.png";
 import React4 from "../../assets/react-4.png";
+import React5 from "../../assets/react-5.png";
 import Js1 from "../../assets/js-1.png";
 
 export const projectsData = [
@@ -83,7 +84,7 @@ export const projectsData = [
   },
   {
     id: 10,
-    image: React,
+    image: React5,
     title: "Web design",
     category: "React",
     link: "https://nft-solya.netlify.app/",
