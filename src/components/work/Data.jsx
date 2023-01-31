@@ -47,7 +47,7 @@ export const projectsData = [
     image: Html2,
     title: "Web design",
     category: "HTML",
-    link: "https://kit-s.netlify.app/",
+    link: "https://kit-solya.netlify.app/",
     github: "https://github.com/Soliha17/kit",
   },
   {
