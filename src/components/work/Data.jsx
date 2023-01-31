@@ -71,7 +71,7 @@ export const projectsData = [
     image: React4,
     title: "Brand design",
     category: "React",
-    link: "https://solya-invest.netlify.app/podcasts",
+    link: "https://invest-solya.netlify.app/",
     github: "https://github.com/Soliha17/invest",
   },
   {
