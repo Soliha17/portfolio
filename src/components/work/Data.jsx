@@ -55,7 +55,7 @@ export const projectsData = [
     image: Html4,
     title: "Web design",
     category: "HTML",
-    link: "https://last-d.netlify.app/",
+    link: "https://art-solya.netlify.app/",
     github: "https://github.com/Soliha17/Art-Eccommerce/tree/main/art",
   },
   {
