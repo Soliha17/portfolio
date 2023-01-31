@@ -81,6 +81,14 @@ export const projectsData = [
     link: "https://ibiznes-solya.netlify.app/",
     github: "https://github.com/Soliha17/Exam_Uzdevs",
   },
+  {
+    id: 10,
+    image: React,
+    title: "Web design",
+    category: "React",
+    link: "https://nft-solya.netlify.app/",
+    github: "https://github.com/Soliha17/nft",
+  },
 ];
 
 export const projectsNav = [
