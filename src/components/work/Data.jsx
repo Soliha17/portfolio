@@ -9,7 +9,7 @@ import React4 from "../../assets/react-4.png";
 import React5 from "../../assets/react-5.png";
 import Js1 from "../../assets/js-1.jpg";
 import Js2 from "../../assets/js-2.jpg";
-import Js3 from "../../assets/js-3.jpg";
+import Js3 from "../../assets/js-3.png";
 
 export const projectsData = [
   {
