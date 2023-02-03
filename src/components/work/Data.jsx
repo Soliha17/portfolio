@@ -8,6 +8,7 @@ import React3 from "../../assets/react-3.png";
 import React4 from "../../assets/react-4.png";
 import React5 from "../../assets/react-5.png";
 import Js1 from "../../assets/js-1.jpg";
+import Js2 from "../../assets/js-2.jpg";
 
 export const projectsData = [
   {
@@ -89,6 +90,14 @@ export const projectsData = [
     category: "React",
     link: "https://nft-solya.netlify.app/",
     github: "https://github.com/Soliha17/nft",
+  },
+  {
+    id: 11,
+    image: Js2,
+    title: "App movil",
+    category: "Javascript",
+    link: "https://sign-up-form-solya.netlify.app/",
+    github: "https://github.com/Soliha17/into-component-sign-up-form",
   },
 ];
 
