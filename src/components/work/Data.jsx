@@ -23,8 +23,8 @@ export const projectsData = [
     image: Js1,
     title: "App movil",
     category: "Javascript",
-    link: "https://expanding-card-solya.netlify.app/",
-    github: "https://github.com/Soliha17/animation-slider",
+    link: "https://interactive-solya.netlify.app/",
+    github: "https://github.com/Soliha17/Interactive-rating-component",
   },
   {
     id: 3,
