@@ -10,6 +10,7 @@ import React5 from "../../assets/react-5.png";
 import Js1 from "../../assets/js-1.jpg";
 import Js2 from "../../assets/js-2.jpg";
 import Js3 from "../../assets/js-3.png";
+import Js4 from "../../assets/js-4.jpg";
 
 export const projectsData = [
   {
@@ -107,6 +108,14 @@ export const projectsData = [
     category: "Javascript",
     link: "https://advice-generator-solya.netlify.app/",
     github: "https://github.com/Soliha17/advice-generator-app",
+  },
+  {
+    id: 13,
+    image: Js4,
+    title: "App movil",
+    category: "Javascript",
+    link: "https://testimonial-slider-solya.netlify.app/",
+    github: "https://github.com/Soliha17/Testimonial-slider-main",
   },
 ];
 
