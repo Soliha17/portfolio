@@ -20,7 +20,7 @@ function Social() {
         <i class="uil uil-github-alt"></i>
       </a>
       <a
-        href="https://www.linkedin.com/in/solya1702/"
+        href="https://www.linkedin.com/in/soliha-tursuntosheva/"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
