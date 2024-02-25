@@ -11,6 +11,9 @@ import Js1 from "../../assets/js-1.jpg";
 import Js2 from "../../assets/js-2.jpg";
 import Js3 from "../../assets/js-3.png";
 import Js4 from "../../assets/js-4.jpg";
+import Smartjob from "../../assets/smartjob.png";
+import Lemix from "../../assets/lemix.png";
+import Medreyting from "../../assets/medreyting.png";
 
 export const projectsData = [
   {
@@ -117,6 +120,30 @@ export const projectsData = [
     link: "https://testimonial-slider-solya.netlify.app/",
     github: "https://github.com/Soliha17/Testimonial-slider-main",
   },
+  {
+    id: 14,
+    image: Medreyting,
+    title: "Medreyting",
+    category: "Next JS",
+    link: "https://t.me/medreyting_bot",
+    github: "https://github.com/Soliha17/medreyting",
+  },
+  {
+    id: 15,
+    image: Lemix,
+    title: "Lemix",
+    category: "React",
+    link: "https://lemix.org/",
+    github: "https://github.com/Soliha17/lemix",
+  },
+  {
+    id: 16,
+    image: Smartjob,
+    title: "Smartjob",
+    category: "React",
+    link: "https://smartjobs-solya.netlify.app/",
+    github: "https://github.com/Soliha17/smart_jobs",
+  },
 ];
 
 export const projectsNav = [
@@ -124,4 +151,5 @@ export const projectsNav = [
   { name: "HTML" },
   { name: "Javascript" },
   { name: "React" },
+  { name: "Next JS" },
 ];
