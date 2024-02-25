@@ -43,7 +43,7 @@ const Footer = () => {
             <i class="uil uil-github-alt"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/solya1702/"
+            href="www.linkedin.com/in/soliha-tursuntosheva"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
