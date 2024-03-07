@@ -32,7 +32,7 @@ const Contact = () => {
 
               <h3 className="contact__title">Email</h3>
               <span className="contact__card-data">
-                solyatursuntasheva@gmail.com
+                devsolya@gmail.com
               </span>
               <a
                 href="mailto:solyatursuntasheva@gmail.com"

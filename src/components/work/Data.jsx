@@ -10,7 +10,7 @@ import React5 from "../../assets/react-5.png";
 import Js1 from "../../assets/js-1.jpg";
 import Js2 from "../../assets/js-2.jpg";
 import Js3 from "../../assets/js-3.png";
-import Js4 from "../../assets/js-4.jpg";
+import Js4 from "../../assets/js-4.png";
 import Smartjob from "../../assets/smartjob.png";
 import Lemix from "../../assets/lemix.png";
 import Medreyting from "../../assets/medreyting.png";
