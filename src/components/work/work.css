@@ -96,11 +96,13 @@
     margin-bottom: 0.25rem;
   }
 }
+
 @media screen and (max-width: 870px) {
   .work__card {
     width: 350px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .work__container {
     grid-template-columns: max-content;
@@ -120,6 +122,10 @@
   .work__img {
     width: 100%;
   }
+
+  .work__filters {
+    column-gap: 0.25rem;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -128,7 +134,7 @@
   }
 
   .work__filters {
-    column-gap: 0.25rem;
+    column-gap: 0.01rem;
   }
 
   .work__card {
