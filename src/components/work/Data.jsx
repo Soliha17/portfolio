@@ -14,6 +14,7 @@ import Js4 from "../../assets/js-4.jpg";
 import Smartjob from "../../assets/smartjob.png";
 import Lemix from "../../assets/lemix.png";
 import Medreyting from "../../assets/medreyting.png";
+import Market from "../../assets/Market.png";
 
 export const projectsData = [
   {
@@ -143,6 +144,14 @@ export const projectsData = [
     category: "React",
     link: "https://smartjobs-solya.netlify.app/",
     github: "https://github.com/Soliha17/smart_jobs",
+  },
+  {
+    id: 17,
+    image: Market,
+    title: "Market",
+    category: "Next JS",
+    link: "https://market-solya.netlify.app/uz",
+    github: "https://github.com/Soliha17/market",
   },
 ];
 
