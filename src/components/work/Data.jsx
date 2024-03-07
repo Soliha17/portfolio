@@ -15,6 +15,7 @@ import Smartjob from "../../assets/smartjob.png";
 import Lemix from "../../assets/lemix.png";
 import Medreyting from "../../assets/medreyting.png";
 import Market from "../../assets/Market.png";
+import Coaching from "../../assets/coaching.png";
 
 export const projectsData = [
   {
@@ -152,6 +153,14 @@ export const projectsData = [
     category: "Next JS",
     link: "https://market-solya.netlify.app/uz",
     github: "https://github.com/Soliha17/market",
+  },
+  {
+    id: 18,
+    image: Coaching,
+    title: "Coaching",
+    category: "Next JS",
+    link: "https://coaching-solya.netlify.app/uz",
+    github: "https://github.com/Soliha17/coaching",
   },
 ];
 
