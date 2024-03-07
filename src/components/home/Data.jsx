@@ -1,5 +1,3 @@
-import React from "react";
-
 function Data() {
   return (
     <div className="home__data">

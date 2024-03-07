@@ -1,8 +1,9 @@
-import React from "react";
 import "./home.css";
+
 import Social from "./Social";
 import Data from "./Data";
 import ScrollDown from "./ScrollDown";
+
 function Home() {
   return (
     <section className="home section" id="home">
@@ -10,9 +11,9 @@ function Home() {
         <div className="home__content grid">
           <Social />
           <div className="home__img"></div>
-          <Data/>
+          <Data />
         </div>
-        <ScrollDown/>
+        <ScrollDown />
       </div>
     </section>
   );

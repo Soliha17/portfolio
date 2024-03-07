@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./header.css";
+
 function Header() {
   /*=============== Change Background Header ===============*/
 

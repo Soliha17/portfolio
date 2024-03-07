@@ -9,6 +9,7 @@
   z-index: var(--z-tooltip);
   transition: 0.4s;
 }
+
 .scrollup__icon {
   font-size: 1.5rem;
   color: var(--container-color);
@@ -30,6 +31,7 @@
     right: 1.5rem;
     padding: 0.25rem 0.4rem;
   }
+  
   .scrollup__icon{
     font-size: 1.25rem;
   }

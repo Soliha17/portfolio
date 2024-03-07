@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { projectsData, projectsNav } from "./Data";
 import WorkItems from "./WorkItems";
 
@@ -20,7 +20,7 @@ const Works = () => {
 
   const handleClick = (e, index) => {
     setItem({ name: e.target.textContent.toLowerCase() });
-    setActive(index)
+    setActive(index);
   };
 
   return (
