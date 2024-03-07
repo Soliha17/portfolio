@@ -31,7 +31,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-telegram"></i>
+            <i className="bx bxl-telegram"></i>
           </a>
           <a
             href="https://github.com/Soliha17"
@@ -39,7 +39,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="uil uil-github-alt"></i>
+            <i className="uil uil-github-alt"></i>
           </a>
           <a
             href="www.linkedin.com/in/soliha-tursuntosheva"
@@ -47,7 +47,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-linkedin"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
         </div>
         <span className="footer__copy">&#169; Solya. All rights reserved</span>

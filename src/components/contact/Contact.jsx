@@ -31,9 +31,7 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__title">Email</h3>
-              <span className="contact__card-data">
-                devsolya@gmail.com
-              </span>
+              <span className="contact__card-data">devsolya@gmail.com</span>
               <a
                 href="mailto:solyatursuntasheva@gmail.com"
                 className="contact__button"
@@ -105,7 +103,7 @@ const Contact = () => {
             <button className="button button--flex">
               Send Massage
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

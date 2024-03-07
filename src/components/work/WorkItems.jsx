@@ -9,7 +9,7 @@ const WorkItems = ({ item }) => {
           rel="noreferrer"
           className="work__button"
         >
-          <i class="bx bx-world"></i>
+          <i className="bx bx-world"></i>
           Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
         </a>
         <a
